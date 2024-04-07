@@ -1,0 +1,438 @@
+{
+    "name": "Eurobusiness Classic",
+    "uri": "https://raw.githubusercontent.com/Izab3la/monopolyVariants/main/eurobusiness-classic.json",
+    "settings": {
+        "playersBalance": 3000,
+        "startBonus": 400
+    },
+    "naming": {
+        "districts": "Kraje",
+        "members": "Miasta",
+        "middles": "Koleje",
+        "duo": "Usługi",
+        "specials": "Specjalne",
+        "currency": "EUR"
+    },
+    "properties": {
+        "districts": [
+            {
+                "name": "Grecja",
+                "color": "yellow",
+                "members": [
+                    {
+                        "color": "yellow",
+                        "name": "Saloniki",
+                        "price": 120
+                    },
+                    {
+                        "color": "yellow",
+                        "name": "Ateny",
+                        "price": 120
+                    }
+                ]
+            },
+            {
+                "name": "Włochy",
+                "color": "red",
+                "members": [
+                    {
+                        "color": "red",
+                        "name": "Neapol",
+                        "price": 200
+                    },
+                    {
+                        "color": "red",
+                        "name": "Mediolan",
+                        "price": 200
+                    },
+                    {
+                        "color": "red",
+                        "name": "Rzym",
+                        "price": 240
+                    }
+                ]
+            },
+            {
+                "name": "Hiszpania",
+                "color": "blue",
+                "members": [
+                    {
+                        "color": "blue",
+                        "name": "Barcelona",
+                        "price": 280
+                    },
+                    {
+                        "color": "blue",
+                        "name": "Sewilla",
+                        "price": 280
+                    },
+                    {
+                        "color": "blue",
+                        "name": "Madryt",
+                        "price": 320
+                    }
+                ]
+            },
+            {
+                "name": "Anglia",
+                "color": "orange",
+                "members": [
+                    {
+                        "color": "orange",
+                        "name": "Liverpool",
+                        "price": 360
+                    },
+                    {
+                        "color": "orange",
+                        "name": "Glasgow",
+                        "price": 360
+                    },
+                    {
+                        "color": "orange",
+                        "name": "Londyn",
+                        "price": 400
+                    }
+                ]
+            },
+            {
+                "name": "Benelux",
+                "color": "green",
+                "members": [
+                    {
+                        "color": "green",
+                        "name": "Rotterdam",
+                        "price": 440
+                    },
+                    {
+                        "color": "green",
+                        "name": "Bruksela",
+                        "price": 440
+                    },
+                    {
+                        "color": "green",
+                        "name": "Amsterdam",
+                        "price": 480
+                    }
+                ]
+            },
+            {
+                "name": "Szwecja",
+                "color": "purple",
+                "members": [
+                    {
+                        "color": "purple",
+                        "name": "Malmo",
+                        "price": 520
+                    },
+                    {
+                        "color": "purple",
+                        "name": "Goteborg",
+                        "price": 520
+                    },
+                    {
+                        "color": "purple",
+                        "name": "Sztokholm",
+                        "price": 560
+                    }
+                ]
+            },
+            {
+                "name": "RFN",
+                "color": "brown",
+                "members": [
+                    {
+                        "color": "brown",
+                        "name": "Frankfurt",
+                        "price": 600
+                    },
+                    {
+                        "color": "brown",
+                        "name": "Kolonia",
+                        "price": 600
+                    },
+                    {
+                        "color": "brown",
+                        "name": "Bonn",
+                        "price": 640
+                    }
+                ]
+            },
+            {
+                "name": "Austria",
+                "color": "black",
+                "members": [
+                    {
+                        "color": "black",
+                        "name": "Innsbruck",
+                        "price": 700
+                    },
+                    {
+                        "color": "black",
+                        "name": "Wiedeń",
+                        "price": 800
+                    }
+                ]
+            }
+        ],
+        "middles": [
+            {
+                "color": "none",
+                "name": "Południowe",
+                "price": 400
+            },
+            {
+                "color": "none",
+                "name": "Zachodnie",
+                "price": 400
+            },
+            {
+                "color": "none",
+                "name": "Północne",
+                "price": 400
+            },
+            {
+                "color": "none",
+                "name": "Wschodnie",
+                "price": 400
+            }
+        ],
+        "duo": [
+            {
+                "color": "none",
+                "name": "Elektrownia atomowa",
+                "price": 300
+            },
+            {
+                "color": "none",
+                "name": "Sieć wodociągowa",
+                "price": 300
+            }
+        ],
+        "specials": [
+            {
+                "color": "none",
+                "name": "Parking strzeżony",
+                "price": 400
+            },
+            {
+                "color": "none",
+                "name": "Podatek od wzbogacenia",
+                "price": 200
+            }
+        ]
+    },
+    "cardStacks": [
+        {
+            "name": "Niebieskie",
+            "cards": [
+                {
+                    "name": "Omyłka banku",
+                    "action": "transfer",
+                    "amount": 400,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Konkurs piękności",
+                    "action": "transfer",
+                    "amount": 200,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Zwrot podatku",
+                    "action": "transfer",
+                    "amount": 40,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Odsetki kapitału",
+                    "action": "transfer",
+                    "amount": 50,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Rabat z magazynu",
+                    "action": "transfer",
+                    "amount": 20,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Spadek",
+                    "action": "transfer",
+                    "amount": 200,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Roczna renta",
+                    "action": "transfer",
+                    "amount": 200,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Urodziny",
+                    "action": "transfer",
+                    "amount": 20,
+                    "payer": "all players",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Składka ubezpieczeniowa",
+                    "action": "transfer",
+                    "amount": 20,
+                    "payer": "player",
+                    "recipient": "bank"
+                },
+                {
+                    "name": "Budowa szpitala",
+                    "action": "transfer",
+                    "amount": 400,
+                    "payer": "player",
+                    "recipient": "bank"
+                },
+                {
+                    "name": "Karta lub szansa",
+                    "action": "transfer",
+                    "amount": 20,
+                    "payer": "player",
+                    "recipient": "bank"
+                },
+                {
+                    "name": "Leczenie",
+                    "action": "transfer",
+                    "amount": 20,
+                    "payer": "player",
+                    "recipient": "bank"
+                },
+                {
+                    "name": "Wracasz do Wiednia",
+                    "action": "goto",
+                    "destination": "Wiedeń",
+                    "startBonus": false
+                },
+                {
+                    "name": "Wracasz na start",
+                    "action": "goto",
+                    "destination": "start",
+                    "startBonus": false
+                },
+                {
+                    "name": "Wychodzisz z więzienia",
+                    "action": "jail leave"
+                },
+                {
+                    "name": "Idziesz do więzienia",
+                    "action": "jail goto"
+                }
+            ]
+        },
+        {
+            "name": "Czerwone",
+            "cards": [
+                {
+                    "name": "Procenty",
+                    "action": "transfer",
+                    "amount": 100,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Odsetki",
+                    "action": "transfer",
+                    "amount": 300,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Rozwiązanie krzyżówki",
+                    "action": "transfer",
+                    "amount": 200,
+                    "payer": "bank",
+                    "recipient": "player"
+                },
+                {
+                    "name": "Modernizacja",
+                    "action": "renovation",
+                    "small": 80,
+                    "big": 230
+                },
+                {
+                    "name": "Remont",
+                    "action": "renovation",
+                    "small": 50,
+                    "big": 200
+                },
+                {
+                    "name": "Mandat za szybką jazdę",
+                    "action": "transfer",
+                    "amount": 30,
+                    "payer": "player",
+                    "recipient": "bank"
+                },
+                {
+                    "name": "Picie w pracy",
+                    "action": "transfer",
+                    "amount": 40,
+                    "payer": "player",
+                    "recipient": "bank"
+                },
+                {
+                    "name": "Opłata za szkołę",
+                    "action": "transfer",
+                    "amount": 300,
+                    "payer": "player",
+                    "recipient": "bank"
+                },
+                {
+                    "name": "Wychodzisz z więzienia",
+                    "action": "jail leave"
+                },
+                {
+                    "name": "Idziesz do więzienia",
+                    "action": "jail goto"
+                },
+                {
+                    "name": "Cofasz się o 3 pola",
+                    "action": "move",
+                    "distance": -3,
+                    "startBonus": true
+                },
+                {
+                    "name": "Wracasz do Brukseli",
+                    "action": "goto",
+                    "destination": "Bruksela",
+                    "startBonus": true
+                },
+                {
+                    "name": "Wracasz do Madrytu",
+                    "action": "goto",
+                    "destination": "Madryt",
+                    "startBonus": false
+                },
+                {
+                    "name": "Wracasz na start",
+                    "action": "goto",
+                    "destination": "start",
+                    "startBonus": false
+                },
+                {
+                    "name": "Idziesz do Neapolu",
+                    "action": "goto",
+                    "destination": "Neapol",
+                    "startBonus": true
+                },
+                {
+                    "name": "Idziesz do Kolei Wschodnich",
+                    "action": "goto",
+                    "destination": "Kolei Wschodnich",
+                    "startBonus": true
+                }
+            ]
+        }
+    ]
+}
